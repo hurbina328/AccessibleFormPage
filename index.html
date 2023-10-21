@@ -3,10 +3,10 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<!-- 	-------- TO-DO: ADD META TAG AND NAME HERE -------- -->
+		
 		<meta name="author" content="Henry Urbina">
 		<title>Form Activity Solution File</title>
-		<!-- 	-------- TO-DO: ADD LINK TO CSS HERE -------- -->
+		
 		<link rel="stylesheet" href="styles.css">
 	</head>
 
@@ -33,7 +33,7 @@
 					accessing your website or if they just prefer that your forms be easy to use and submit. Follow along as we code
 					this in class, and please ask questions as they arise. Let's make a form!</p>
 
-				<!-- 	-------- TO-DO: ADD FORM HERE -------- -->
+				
 				<form action="/https://wp.zybooks.com/form-viewer.php" method="post">
 					<label for="fname">First Name:</label>
 					<input id="fname" type="text" required>
@@ -46,10 +46,10 @@
 					
 					<fieldset>
 						<legend>Preferred Method Of Contact:</legend>
-						<input id="phone" type="radio" name="contact" value="phone" required>
-						<label for="phone">Phone</label>
-						<input id="email" type="radio" name="contact" value="email" required>
-						<label for="email">Email</label><br>
+						<input id="phonePref" type="radio" name="contact" value="Phone" required>
+						<label for="phonePref">Phone</label>
+						<input id="emailPref" type="radio" name="contact" value="Email" required>
+						<label for="emailPref">Email</label><br>
 					</fieldset>
 					
 					<label for="states">State of Residence:</label>
@@ -108,7 +108,7 @@
 					</select>
 
 					<label for="comments">Comments or Concerns:</label><br>
-					<textarea id="comments" autocomplete="comments-concerns"></textarea>
+					<textarea id="comments"></textarea>
 
 					<input type="submit" name="submit" value="Submit">
 				</form>
